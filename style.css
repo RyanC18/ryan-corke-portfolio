@@ -1,21 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: PT Sans;
 }
 
 body {
-    background: #5d8aa8;
+    background: url(images/binding_dark.png);
 }
 
 header {
     color: white;
     padding: 5px;
-    width: 23%;
-    background: #5d77a8;
+    border-bottom: 1px solid darkgrey;
 }
 
 #nav-section {
-    background: grey;
+    background: #5d8aa8;
     position: fixed;
     left: 0;
     height: 100%;
@@ -37,4 +37,10 @@ header {
 
 .nav-links:hover {
     color: lightblue;
+}
+
+#hero-header {
+    color: lightblue;
+    text-align: center;
+    margin-left: 70px;
 }
