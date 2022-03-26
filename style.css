@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5d8aa8;
+}
+
+header {
+    color: white;
+    padding: 5px;
+    width: 23%;
+    background: #5d77a8;
+}
+
+#nav-section {
+    background: grey;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 25%;
+}
+
+#nav-section ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-links {
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: lightblue;
+}
