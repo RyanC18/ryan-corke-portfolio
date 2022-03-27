@@ -6,10 +6,11 @@
 
 body {
     background: url(images/binding_dark.png);
+    color: white;
 }
 
-header {
-    color: white;
+#name-header {
+    font-size: 13px;
     padding: 5px;
     border-bottom: 1px solid darkgrey;
 }
@@ -19,7 +20,7 @@ header {
     position: fixed;
     left: 0;
     height: 100%;
-    width: 25%;
+    width: 23%;
 }
 
 #nav-section ul a {
@@ -43,4 +44,33 @@ header {
     color: lightblue;
     text-align: center;
     margin-left: 70px;
+}
+
+#hero-subtext {
+    text-align: center;
+    margin-left: 70px;
+}
+
+#my-project-header {
+    color: lightblue;
+    text-align: center;
+    margin-left: 70px;
+    border-bottom: 1px solid lightgrey;
+}
+
+@media screen and (min-width: 390px) {
+    #hero-subtext {
+        font-size: 18px;
+        position: relative;
+        left: 3%;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #hero-subtext {
+        font-size: 39px;
+        position: relative;
+        left: 10%;
+        right: 10%;
+    }
 }
