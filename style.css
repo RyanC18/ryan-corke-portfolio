@@ -66,11 +66,51 @@ body {
     }
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 768px) {
     #hero-subtext {
-        font-size: 39px;
-        position: relative;
+        hyphens: manual;
+        font-size: 29px;
         left: 10%;
         right: 10%;
+    }
+
+    #hero-header {
+        font-size: 50px;
+    }
+
+    #my-project-header {
+        font-size: 50px;
+    }
+
+    .nav-links {
+        font-size: 40px;
+    }
+
+    #name-header {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #hero-subtext {
+        font-size: 38px;
+        left: 10%;
+        right: 10%;
+    }
+
+    #hero-header {
+        font-size: 50px;
+    }
+
+    #my-project-header {
+        font-size: 50px;
+    }
+
+    .nav-links {
+        font-size: 40px;
+    }
+
+    #name-header {
+        font-size: 35px;
     }
 }
